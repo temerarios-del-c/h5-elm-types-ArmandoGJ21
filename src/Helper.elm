@@ -5,7 +5,6 @@ import Html.Attributes exposing (href)
 
 
 
--- TIPOS PERSONALIZADOS
 
 
 type GradeStatus
@@ -22,7 +21,6 @@ type AirplaneStatus
 
 
 
--- FUNCIONES DE TEXTO Y MAPEO
 
 
 joinWords : String -> String -> String
@@ -74,7 +72,6 @@ airportAction list =
 
 
 
--- COMPONENTES HTML
 
 
 headers : String -> Html msg
