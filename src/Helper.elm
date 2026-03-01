@@ -5,8 +5,6 @@ import Html.Attributes exposing (href)
 
 
 
-
-
 type GradeStatus
     = Approved
     | Failed
