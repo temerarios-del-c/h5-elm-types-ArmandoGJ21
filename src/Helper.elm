@@ -4,7 +4,6 @@ import Html exposing (..)
 import Html.Attributes exposing (href)
 
 
-
 type GradeStatus
     = Approved
     | Failed
@@ -16,9 +15,6 @@ type AirplaneStatus
     | Boarding
     | Delayed
     | Cancelled
-
-
-
 
 
 joinWords : String -> String -> String
@@ -67,9 +63,6 @@ airplaneScheduleAction s =
 airportAction : List AirplaneStatus -> List String
 airportAction list =
     List.map airplaneScheduleAction list
-
-
-
 
 
 headers : String -> Html msg
